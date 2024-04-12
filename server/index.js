@@ -6,7 +6,7 @@ import express from 'express'
 import App from '../client/components/App'
 
 const app = express()
-const port = process.env.NODE_ENV === 'production' ? process.env.PORT : 3000; // [A]
+const port = process.env.NODE_ENV === 'production' ? process.env.PORT : 3000;
 const cdnHost = process.env.NODE_ENV === 'production' ? `https://storage.googleapis.com/react-ssr/build/client` : `http://localhost:5000`; // [B]
 
 app.get('/', (req, res) => {
