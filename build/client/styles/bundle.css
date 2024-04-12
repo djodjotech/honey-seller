@@ -1,0 +1,113 @@
+.app_bG9Dx {
+  color: red;
+  border: 1px dashed red;
+}
+body {
+  height: 100%;
+  background-position: center center;
+  background-image: url(http://localhost:8082/TESTTEST1.8da480f.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.landingPage_LLOnS {
+  position: relative;
+  text-align: center;
+  color: black;
+  width: 100%;
+}
+.title_Qq6eU {
+  margin-bottom: 0;
+  font-family: fantasy;
+  font-size: 6vmin;
+  /* Make the text transparent to show the background */
+  color: transparent;
+  background: linear-gradient(to right, #ff7e00, black, #ff7e00);
+  background-clip: text;
+  /* Create the gradient. */
+  /* Set the background size and repeat properties. */
+  background-size: 100%;
+  background-repeat: repeat;
+  /* Use the text as a mask for the background. */
+  /* This will show the gradient as a text color rather than element bg. */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+.initialContent_ueii4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  animation: example_WDOsA 4s linear, 4s dude_0\+0u8 4s linear;
+}
+.content_eqXQV {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  animation: example_WDOsA 4s linear, 4s dude_0\+0u8 4s linear;
+}
+.content_eqXQV {
+  display: none;
+}
+@keyframes example_WDOsA {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0.1;
+  }
+  50% {
+    opacity: 0.3;
+  }
+  75% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.landingText_zi6YG {
+  font-size: 2vmin;
+  font-family: fantasy;
+  margin-top: 0;
+  margin-bottom: 10px;
+  width: 33%;
+  max-height: 300px;
+}
+.menuItemDescription_ehnyz {
+  display: flex;
+  justify-content: center;
+}
+.menuItemText_GXq3A {
+  font-size: 2vmin;
+  font-family: fantasy;
+  margin-top: 0;
+  margin-bottom: 10px;
+  width: 30%;
+}
+.showMore_Uc\+ke {
+  width: 25vmin;
+  padding: 0.5%;
+  border: 2px solid black;
+  border-radius: 20px;
+  background: transparent;
+  color: #090909;
+  background-color: #cf470d;
+}
+.menu_ewqfU h1 {
+  font-family: fantasy;
+  font-weight: bold;
+  font-size: 30px;
+}
+.selectedMenuItem_3JrVa {
+  text-decoration: underline !important;
+}
+.menu_ewqfU {
+  display: flex;
+  justify-content: space-evenly;
+  width: 35%;
+}
+
