@@ -4,14 +4,19 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "clear": "rimraf build",
     "build:client": "webpack --config webpack.client.config.js",
     "build:server": "webpack --config webpack.server.config.js",
     "prebuild": "rimraf build",
     "build": "run-p build:*",
-    "start:client": "serve build/client",
     "start:server": "node build/server/bundle.js",
-    "start:local": "run-p start:client start:server",
-    "start": "node build/server/bundle.js" 
+    "start:client": "serve build/client",
+    "dev:server": "nodemon --ignore build --exec 'run-s clear build:server start:server'",
+    "dev:client": "webpack serve --config webpack.client.config.js",
+    "dev": "run-p dev:client dev:server",
+    "start": "node build/server/bundle.js"
+
+
   },
   "author": "",
   "license": "ISC",

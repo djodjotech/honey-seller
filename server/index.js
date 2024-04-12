@@ -11,8 +11,8 @@ app.get('/', (req, res) => {
         <App />
     ); 
 
-    const clientBundleScript = `<script src="http://localhost:8082/scripts/bundle.js"></script>`; // [B]
-    const clientBundleStyle = `<link rel="stylesheet" href="http://localhost:8082/styles/bundle.css">`; // [B]
+    const clientBundleScript = `<script src="http://localhost:8080/scripts/bundle.js"></script>`; // [B]
+    const clientBundleStyle = `<link rel="stylesheet" href="http://localhost:8080/styles/bundle.css">`; // [B]
 
     res.send(`
         <!DOCTYPE html>

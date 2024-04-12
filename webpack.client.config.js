@@ -5,7 +5,7 @@ const { merge } = require('webpack-merge');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const sharedConfig = require('./webpack.shared.config.js');
 
-const clientPort = 8082;
+const clientPort = 8080;
 
 const config = {
     target: 'web',
